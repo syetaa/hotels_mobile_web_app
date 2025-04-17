@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 2px;
+}
+.card_item{
+    display: flex;
+    gap: 16px;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    background: var(--card_background);
+    border-radius: 8px;
+}
+.card_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.text1{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--text_color1);
+}
+
+.text2{
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--text_color2);
+}

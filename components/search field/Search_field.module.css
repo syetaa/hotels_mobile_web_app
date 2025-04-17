@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 9.5px 0 9.5 10px;
+    border-radius:  12px 0 0 12px;
+    background: var(--card_background);
+}
+
+.container input{
+    padding: 14px;
+    border-radius:  0 12px 12px 0;
+    background: var(--card_background);
+    width: 100%;
+}
+.container input::placeholder{
+    color: var(--text_color2);
+}
