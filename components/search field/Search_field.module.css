@@ -8,7 +8,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 9.5px 0 9.5 10px;
+    padding: 9.5px 0 9.5px 10px;
     border-radius:  12px 0 0 12px;
     background: var(--card_background);
 }
